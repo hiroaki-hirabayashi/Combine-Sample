@@ -16,6 +16,9 @@
 		F41F60A427E382CE009172AA /* Combine_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60A327E382CE009172AA /* Combine_SampleTests.swift */; };
 		F41F60AE27E382CE009172AA /* Combine_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60AD27E382CE009172AA /* Combine_SampleUITests.swift */; };
 		F41F60B027E382CE009172AA /* Combine_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60AF27E382CE009172AA /* Combine_SampleUITestsLaunchTests.swift */; };
+		F41F60C027E38DCC009172AA /* CombineSample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60BF27E38DCC009172AA /* CombineSample1.swift */; };
+		F41F60C227E39EB9009172AA /* CombineSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C127E39EB9009172AA /* CombineSample2.swift */; };
+		F41F60C427E39EEA009172AA /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C327E39EEA009172AA /* CombineViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		F41F60A927E382CE009172AA /* Combine-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Combine-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41F60AD27E382CE009172AA /* Combine_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_SampleUITests.swift; sourceTree = "<group>"; };
 		F41F60AF27E382CE009172AA /* Combine_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F41F60BF27E38DCC009172AA /* CombineSample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample1.swift; sourceTree = "<group>"; };
+		F41F60C127E39EB9009172AA /* CombineSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample2.swift; sourceTree = "<group>"; };
+		F41F60C327E39EEA009172AA /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F41F608D27E382CC009172AA /* Combine_SampleApp.swift */,
+				F41F60BC27E38388009172AA /* Presentation */,
 				F41F608F27E382CC009172AA /* ContentView.swift */,
 				F41F609127E382CE009172AA /* Assets.xcassets */,
 				F41F609627E382CE009172AA /* Persistence.swift */,
@@ -131,6 +138,32 @@
 				F41F60AF27E382CE009172AA /* Combine_SampleUITestsLaunchTests.swift */,
 			);
 			path = "Combine-SampleUITests";
+			sourceTree = "<group>";
+		};
+		F41F60BC27E38388009172AA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F41F60BD27E38398009172AA /* ViewModels */,
+				F41F60BE27E383A3009172AA /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F41F60BD27E38398009172AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F41F60C327E39EEA009172AA /* CombineViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F41F60BE27E383A3009172AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F41F60BF27E38DCC009172AA /* CombineSample1.swift */,
+				F41F60C127E39EB9009172AA /* CombineSample2.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41F60C227E39EB9009172AA /* CombineSample2.swift in Sources */,
 				F41F609727E382CE009172AA /* Persistence.swift in Sources */,
 				F41F609A27E382CE009172AA /* Combine_Sample.xcdatamodeld in Sources */,
+				F41F60C427E39EEA009172AA /* CombineViewModel.swift in Sources */,
 				F41F609027E382CC009172AA /* ContentView.swift in Sources */,
 				F41F608E27E382CC009172AA /* Combine_SampleApp.swift in Sources */,
+				F41F60C027E38DCC009172AA /* CombineSample1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
