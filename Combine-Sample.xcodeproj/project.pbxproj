@@ -19,6 +19,7 @@
 		F41F60C027E38DCC009172AA /* CombineSample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60BF27E38DCC009172AA /* CombineSample1.swift */; };
 		F41F60C227E39EB9009172AA /* CombineSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C127E39EB9009172AA /* CombineSample2.swift */; };
 		F41F60C427E39EEA009172AA /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C327E39EEA009172AA /* CombineViewModel.swift */; };
+		F41F60C627EB4701009172AA /* CombineSample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C527EB4700009172AA /* CombineSample3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F41F60BF27E38DCC009172AA /* CombineSample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample1.swift; sourceTree = "<group>"; };
 		F41F60C127E39EB9009172AA /* CombineSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample2.swift; sourceTree = "<group>"; };
 		F41F60C327E39EEA009172AA /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		F41F60C527EB4700009172AA /* CombineSample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				F41F60BF27E38DCC009172AA /* CombineSample1.swift */,
 				F41F60C127E39EB9009172AA /* CombineSample2.swift */,
+				F41F60C527EB4700009172AA /* CombineSample3.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F41F60C227E39EB9009172AA /* CombineSample2.swift in Sources */,
+				F41F60C627EB4701009172AA /* CombineSample3.swift in Sources */,
 				F41F609727E382CE009172AA /* Persistence.swift in Sources */,
 				F41F609A27E382CE009172AA /* Combine_Sample.xcdatamodeld in Sources */,
 				F41F60C427E39EEA009172AA /* CombineViewModel.swift in Sources */,
