@@ -20,6 +20,7 @@
 		F41F60C227E39EB9009172AA /* CombineSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C127E39EB9009172AA /* CombineSample2.swift */; };
 		F41F60C427E39EEA009172AA /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C327E39EEA009172AA /* CombineViewModel.swift */; };
 		F41F60C627EB4701009172AA /* CombineSample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C527EB4700009172AA /* CombineSample3.swift */; };
+		F41F60C927ECB225009172AA /* PlaceHolderTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C827ECB225009172AA /* PlaceHolderTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		F41F60C127E39EB9009172AA /* CombineSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample2.swift; sourceTree = "<group>"; };
 		F41F60C327E39EEA009172AA /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
 		F41F60C527EB4700009172AA /* CombineSample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSample3.swift; sourceTree = "<group>"; };
+		F41F60C827ECB225009172AA /* PlaceHolderTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				F41F608D27E382CC009172AA /* Combine_SampleApp.swift */,
 				F41F60BC27E38388009172AA /* Presentation */,
+				F41F60C727ECB1F5009172AA /* Utils */,
 				F41F608F27E382CC009172AA /* ContentView.swift */,
 				F41F609127E382CE009172AA /* Assets.xcassets */,
 				F41F609627E382CE009172AA /* Persistence.swift */,
@@ -167,6 +170,14 @@
 				F41F60C527EB4700009172AA /* CombineSample3.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F41F60C727ECB1F5009172AA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F41F60C827ECB225009172AA /* PlaceHolderTextEditor.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41F60C927ECB225009172AA /* PlaceHolderTextEditor.swift in Sources */,
 				F41F60C227E39EB9009172AA /* CombineSample2.swift in Sources */,
 				F41F60C627EB4701009172AA /* CombineSample3.swift in Sources */,
 				F41F609727E382CE009172AA /* Persistence.swift in Sources */,
