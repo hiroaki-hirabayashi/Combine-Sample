@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct InquiryStartView: View {
+    @State var isShowModal = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            self.isShowModal = true
+        } label: {
+            Text("お問い合わせ入力フォームへ")
+                .font(.system(size: 18))
+                .foregroundColor(Color.black)
+        }
+        .sheet(isPresented: $isShowModal) {
+            InquiryFormView()
+                // モーダルの下スワイプを無効
+                .interactiveDismiss(canDismissSheet: false)
+        }
+
     }
 }
 

@@ -15,7 +15,7 @@ struct Combine_SampleApp: App {
         WindowGroup {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-            InquiryFormView()
+            InquiryStartView()
         }
     }
 }
