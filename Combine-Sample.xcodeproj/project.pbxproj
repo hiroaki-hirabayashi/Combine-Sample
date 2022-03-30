@@ -23,7 +23,7 @@
 		F41F60C927ECB225009172AA /* PlaceHolderTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60C827ECB225009172AA /* PlaceHolderTextEditor.swift */; };
 		F41F60CB27EDFFFA009172AA /* InquiryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60CA27EDFFFA009172AA /* InquiryViewModel.swift */; };
 		F41F60CE27EE0164009172AA /* InquiryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60CD27EE0164009172AA /* InquiryFormView.swift */; };
-		F41F60D027EE039B009172AA /* ConfirmInquiryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60CF27EE039B009172AA /* ConfirmInquiryDetailView.swift */; };
+		F41F60D027EE039B009172AA /* InquiryConfirmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F60CF27EE039B009172AA /* InquiryConfirmDetailView.swift */; };
 		F4DD107927F3343A0090E163 /* ModalHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD107827F334390090E163 /* ModalHostingController.swift */; };
 		F4DD107B27F3358E0090E163 /* InquiryStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD107A27F3358E0090E163 /* InquiryStartView.swift */; };
 /* End PBXBuildFile section */
@@ -65,7 +65,7 @@
 		F41F60C827ECB225009172AA /* PlaceHolderTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextEditor.swift; sourceTree = "<group>"; };
 		F41F60CA27EDFFFA009172AA /* InquiryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryViewModel.swift; sourceTree = "<group>"; };
 		F41F60CD27EE0164009172AA /* InquiryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryFormView.swift; sourceTree = "<group>"; };
-		F41F60CF27EE039B009172AA /* ConfirmInquiryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmInquiryDetailView.swift; sourceTree = "<group>"; };
+		F41F60CF27EE039B009172AA /* InquiryConfirmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryConfirmDetailView.swift; sourceTree = "<group>"; };
 		F4DD107827F334390090E163 /* ModalHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHostingController.swift; sourceTree = "<group>"; };
 		F4DD107A27F3358E0090E163 /* InquiryStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryStartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				F41F60CD27EE0164009172AA /* InquiryFormView.swift */,
-				F41F60CF27EE039B009172AA /* ConfirmInquiryDetailView.swift */,
+				F41F60CF27EE039B009172AA /* InquiryConfirmDetailView.swift */,
 				F4DD107A27F3358E0090E163 /* InquiryStartView.swift */,
 			);
 			path = Inquiry;
@@ -367,7 +367,7 @@
 				F41F609027E382CC009172AA /* ContentView.swift in Sources */,
 				F41F608E27E382CC009172AA /* Combine_SampleApp.swift in Sources */,
 				F41F60CE27EE0164009172AA /* InquiryFormView.swift in Sources */,
-				F41F60D027EE039B009172AA /* ConfirmInquiryDetailView.swift in Sources */,
+				F41F60D027EE039B009172AA /* InquiryConfirmDetailView.swift in Sources */,
 				F41F60C027E38DCC009172AA /* CombineSample1.swift in Sources */,
 				F4DD107927F3343A0090E163 /* ModalHostingController.swift in Sources */,
 				F4DD107B27F3358E0090E163 /* InquiryStartView.swift in Sources */,
