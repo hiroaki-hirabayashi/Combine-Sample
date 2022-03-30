@@ -102,7 +102,7 @@ extension InquiryFormView {
                 text: $viewModel.text,
                 isOver: $viewModel.toTextCountValidation
             )
-            NavigationLink(destination: ConfirmInquiryDetailView(confirmText: $viewModel.text), isActive: $viewModel.confirm) {}
+            NavigationLink(destination: InquiryConfirmDetailView(confirmText: $viewModel.text), isActive: $viewModel.confirm) {}
             
             Button {
                 self.viewModel.confirm = true

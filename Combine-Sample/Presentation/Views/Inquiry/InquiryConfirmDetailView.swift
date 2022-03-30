@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// お問い合わせ確認画面
-struct ConfirmInquiryDetailView: View {
+struct InquiryConfirmDetailView: View {
     @Environment(\.presentationMode) var presentationMode
     @StateObject private var viewModel = InquiryViewModel()
     @Binding var confirmText: String
@@ -20,7 +20,7 @@ struct ConfirmInquiryDetailView: View {
     }
 }
 
-extension ConfirmInquiryDetailView {
+extension InquiryConfirmDetailView {
     @ViewBuilder
     private func viewContent() -> some View {
         ScrollView {
@@ -112,6 +112,6 @@ extension ConfirmInquiryDetailView {
 
 struct ConfirmInquiryDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ConfirmInquiryDetailView(confirmText: .constant(""))
+        InquiryConfirmDetailView(confirmText: .constant(""))
     }
 }
