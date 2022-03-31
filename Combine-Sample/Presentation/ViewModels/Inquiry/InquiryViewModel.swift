@@ -27,7 +27,7 @@ final class InquiryViewModel: ObservableObject {
 
     /// 電話をかける
     func callToInquiry() {
-        let phoneNumber = "0120333310"
+        let phoneNumber = "0120000000"
         guard let url = URL(string: "tel://" + phoneNumber) else { return }
         UIApplication.shared.open(url)
     }
